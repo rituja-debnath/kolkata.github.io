@@ -1,0 +1,138 @@
+body{
+    background-color:rgb(220, 224, 201);
+}
+.html{
+    box-sizing: border-box;
+}
+.cover-img{
+    width: 100%;
+}
+.container{
+    position: relative;
+    text-align: center;
+}
+.middle{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: whitesmoke;
+    font-family:'Courier New', Courier, monospace;
+    word-spacing: 15px;
+    letter-spacing: 7px;
+    font-size: 30px;
+}
+
+.travel-table{
+    border-radius: 10px;
+    padding: 55px 25px;
+    max-width: 1400px;
+    text-align: center;
+}
+
+#walk{
+    text-align: center;
+    color: rgb(116, 57, 84);
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+}
+.travel-img{
+    width: 100%;
+}
+.packages{
+    text-align: center;
+    color:rgb(116, 57, 84);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    word-spacing: 3px;
+}
+.know-more{
+    text-align: center;
+    color: rgb(133, 68, 122);
+    display: inline-block;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 15px 35px;
+    margin: 25px 0;
+    transition: background-color 400ms ease-in-out;
+    text-decoration: none;
+}
+.know-more:hover, .know-more:focus{
+    background-color: rgb(27, 24, 24);
+}
+.pack1{
+    border: 0px 1px transparent;
+    background-color: gray;
+    padding: 20px;
+    margin: 30px;
+}
+.pack2{
+    border: 0px 1px transparent;
+    background-color: rgb(94, 83, 83);
+    padding: 20px;
+    margin: 30px;
+}
+.pack3{
+    border: 0px 1px transparent;
+    background-color: gray;
+    padding: 20px;
+    margin: 30px;
+}
+.pack4{
+    border: 0px 1px transparent;
+    background-color: rgb(94, 83, 83);
+    padding: 20px;
+    margin: 30px;
+}
+.description{
+    font-family:sans-serif;
+}
+@media (min-width: 1000px){
+    img.culture{
+        float: right;
+        width: 33%;
+        margin: 30px;
+    }
+    .des1{
+        float: right;
+        width: 57%;
+        margin: 30px;
+    }
+    img.footstep{
+        float: left;
+        width: 33%;
+        margin: 30px;
+    }
+    .des2{
+        float: left;
+        width: 57%;
+        margin: 30px;
+    }
+    img.rickshaw{
+        float: right;
+        width: 33%;
+        margin: 30px;
+    }
+    .des3{
+        float: right;
+        width: 57%;
+        margin: 30px;
+    }
+    .packages1{
+        margin: 30px;
+        float: right;
+        width: 57%;
+        text-align: center;
+    }
+    img.building{
+        float: left;
+        width: 33%;
+        margin: 30px;
+    }
+    .des4{
+        float: left;
+        width: 57%;
+        margin: 30px;
+    }
+}
